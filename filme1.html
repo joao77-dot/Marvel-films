@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Vídeo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Player de Vídeo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="Titulo">Thor:Ragnarok</h1 >
+        <div class="video-container">
+            <video id="videoPlayer" width="640" height="360" controls>
+                <source src="movie/Thor.Ragnarok.2018.1080p.BluRay.x264.DUBLADO.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+            <div class="video-controls">
+                <button id="playPauseBtn">Play</button>
+                <button id="muteBtn">Mute</button>
+                <button id="fullscreenBtn">Fullscreen</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog de João Lucas. Todos os direitos reservados.</p>
+    </footer>
+    <script src="filme.js"></script>
+</body>
+</html>
